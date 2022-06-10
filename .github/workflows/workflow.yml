@@ -1,6 +1,7 @@
 name: "JFrog CLI Example"
 on: push
 
+
 jobs:
   build:
     runs-on: ubuntu-latest
