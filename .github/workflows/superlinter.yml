@@ -6,10 +6,7 @@ jobs:
   super-lint:
     name: Lint code base
     runs-on: ubuntu-latest
-    steps:
-      - name: Setup JFrog CLI
-        uses: jfrog/setup-jfrog-cli@v2.3.0
-        
+    steps:     
       - name: Checkout code
         uses: actions/checkout@v2
 
