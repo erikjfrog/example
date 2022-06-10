@@ -7,8 +7,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Workflow Dispatch
-        uses: benc-uk/workflow-dispatch@v1.1
       - name: Setup JFrog CLI
         uses: jfrog/setup-jfrog-cli@v2
         env:
